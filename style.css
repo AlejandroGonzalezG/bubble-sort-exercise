@@ -40,4 +40,21 @@ body {
   }
 .card-body{
     justify-content: center;
-}  
+}   
+
+.card {
+  background-color: white;
+  height: 80px;
+  width: 60px;
+  margin-right: 1rem;
+  border-radius: 8%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container-cartas-row {
+  width: 1000px;
+  height: 150px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
