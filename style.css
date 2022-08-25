@@ -49,9 +49,18 @@ input {
   width: 71px;
   margin-right: 1rem;
   border-radius: 10%;
+  margin-bottom: 10px;
 }
 
 .container-cartas-row {
+  width: 100%;
+  height: 150px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cards-sorted-container {
   width: 100%;
   height: 150px;
   margin-top: 25px;
